@@ -80,7 +80,8 @@ class Home extends Component {
 
   getBases = async () => {
     const newState = { ...this.state }
-    const response = await API.get('dynamo9b5d315a', '/bases')
+    const response = await API.get('api04c14c6b', '/bases')
+    console.log(response)
     if (response.length === 0) {
       newState.noBases = true
     }
@@ -105,7 +106,7 @@ class Home extends Component {
     const updateItem = { ...this.state.baseToDelete }
     updateItem.deleteVal = true
 
-    await API.put("dynamo9b5d315a", "/bases", {
+    await API.put("api04c14c6b", "/bases", {
       body: updateItem
     }).then(response => console.log(response)).catch(err => this.setState({ err: err }))
     const lastId = localStorage.getItem('lastSelectedBase')
@@ -134,7 +135,7 @@ class Home extends Component {
     const currentTime = moment().format()
     const allPrefs = JSON.parse(localStorage.getItem('defaultUserPrefs'))
     const userPrefs = allPrefs[this.state.username]
-    await API.post("dynamo9b5d315a", "/bases", {
+    await API.post("api04c14c6b", "/bases", {
       body: {
         baseName: random({ exactly: 3, join: '-' }),
         codeLanguage: `${userPrefs.language}`,

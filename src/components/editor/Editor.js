@@ -33,7 +33,7 @@ class Editor extends Component {
   componentDidMount = async () => {
     const newState = { ...this.state }
     newState.storedId = await localStorage.getItem('lastSelectedBase')
-    newState.editorUserBases = await API.get('dynamo9b5d315a', '/bases')
+    newState.editorUserBases = await API.get('api04c14c6b', '/bases')
     await this.setState({
       editorUserBases: newState.editorUserBases,
       storedId: newState.storedId
@@ -80,7 +80,7 @@ class Editor extends Component {
     updateItem.fontSize = this.state.fontSize
     updateItem.modifiedAt = moment().format()
 
-    await API.put("dynamo9b5d315a", "/bases", {
+    await API.put("api04c14c6b", "/bases", {
       body: updateItem
     })
       .then(response => response.success ? this.setState({ saved: true }) : '')
