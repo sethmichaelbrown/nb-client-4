@@ -63,7 +63,7 @@ class Home extends Component {
       liveAutoCompletion: true,
       highlightActiveLine: true
     }
-    const user = localStorage.getItem('CognitoIdentityServiceProvider.43e59kat93rjn7fsptfkilhnpq.LastAuthUser')
+    const user = localStorage.getItem('CognitoIdentityServiceProvider.ie27rnhg1utbq5i368586jcf7.LastAuthUser')
     let allPrefs = {}
     allPrefs[`${user}`] = userPrefs
     localStorage.setItem('defaultUserPrefs', JSON.stringify(allPrefs))

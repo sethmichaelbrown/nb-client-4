@@ -23,7 +23,7 @@ class App extends Component {
 
   pacmanLoading = () => {
     const allPrefs = JSON.parse(localStorage.getItem('defaultUserPrefs'))
-    const user = localStorage.getItem('CognitoIdentityServiceProvider.43e59kat93rjn7fsptfkilhnpq.LastAuthUser')
+    const user = localStorage.getItem('CognitoIdentityServiceProvider.ie27rnhg1utbq5i368586jcf7.LastAuthUser')
     if (user) {
       this.setState({ pacman: allPrefs[`${user}`].pacman })
     }
