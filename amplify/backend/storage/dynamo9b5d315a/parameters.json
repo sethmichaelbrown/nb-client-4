@@ -1,0 +1,7 @@
+{
+    "tableName": "dynamo9b5d315a",
+    "partitionKeyName": "username",
+    "partitionKeyType": "S",
+    "sortKeyName": "id",
+    "sortKeyType": "S"
+}

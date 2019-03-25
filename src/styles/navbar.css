@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #565658;
+}
+
+a {
+  color: #EAEAEA;
+}
+
+a:hover {
+  color: #7DC3C1;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=EAEAEA');
+}
+
+.custom-toggler:focus {
+  border: none;
+  outline: none;
+}

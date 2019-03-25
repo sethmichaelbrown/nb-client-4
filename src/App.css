@@ -1,33 +1,83 @@
-.App {
-  text-align: center;
+/* #background-video {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.Form__formSection___3tqxz {
+  box-shadow: none !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Anchor__a___3JUCG:hover {
+  color: #5C908F !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Section__sectionFooterSecondaryContent___3cjOa {
+  color: #565658 !important;
+}
+
+.Button__button___1FrBC {
+  background-color: #EAEAEA !important;
+  color: #565658 !important;
+}
+
+.Button__button___1FrBC:hover {
+  background-color: #565658 !important;
+  color: #EAEAEA !important;
+  opacity: 1 !important;
+}
+
+.user-photo {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.user-photo-preferences {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.greeting-text {
+  margin: auto;
+  line-height: 2px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.saved-text {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+h4, .btn {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.editor-preview {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.preferences-card {
+  display: flex;
+  height: 100%;
+  justify-content: center
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

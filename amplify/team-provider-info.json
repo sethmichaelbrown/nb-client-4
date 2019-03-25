@@ -1,0 +1,19 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "nb-client-4-20190325151647-authRole",
+            "UnauthRoleArn": "arn:aws:iam::075146461562:role/nb-client-4-20190325151647-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::075146461562:role/nb-client-4-20190325151647-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "nb-client-4-20190325151647-deployment",
+            "UnauthRoleName": "nb-client-4-20190325151647-unauthRole",
+            "StackName": "nb-client-4-20190325151647",
+            "StackId": "arn:aws:cloudformation:us-west-2:075146461562:stack/nb-client-4-20190325151647/4cb53d20-4f43-11e9-a682-0699096663d0"
+        },
+        "categories": {
+            "auth": {
+                "cognitoaf48777c": {}
+            }
+        }
+    }
+}

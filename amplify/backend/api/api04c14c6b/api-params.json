@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/bases",
+            "lambdaFunction": "nbclient47dee3399",
+            "privacy": {
+                "private": true,
+                "auth": "rw"
+            }
+        }
+    ],
+    "resourceName": "api04c14c6b",
+    "apiName": "api04c14c6b",
+    "functionArns": [
+        {
+            "lambdaFunction": "nbclient47dee3399"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "nb-client-4-20190325151647-authRole",
+        "unAuthRoleName": "nb-client-4-20190325151647-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "nbclient47dee3399",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
