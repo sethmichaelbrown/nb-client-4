@@ -68,7 +68,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "nb-client-4-20190325151647-deployment",
-					"S3Key": "amplify-builds/nbclient47dee3399-1553549100-latest-build.zip"
+					"S3Key": "amplify-builds/nbclient47dee3399-1553551453-latest-build.zip"
 				}
 			}
 		},
