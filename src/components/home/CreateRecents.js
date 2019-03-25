@@ -9,9 +9,21 @@ const CreateRecents = (props) => {
   let fBases = uBases.filter(base => base.deleteVal !== true)
   let sBases = fBases.sort((a, b) => (a.modifiedAt > b.modifiedAt) ? -1 : ((b.modifiedAt > a.modifiedAt) ? 1 : 0))
 
-  for (let i = 0; i < 4; i++) {
-    recentFour.push(sBases[i])
+  let length = sBases.length
+  console.log(length)
+
+  if (length < 4) {
+    for (let i = 0; i < length; i++) {
+      recentFour.push(sBases[i])
+    }
   }
+  else {
+    for (let i = 0; i < 4; i++) {
+      recentFour.push(sBases[i])
+    }
+  }
+
+
 
 
 
