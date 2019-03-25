@@ -93,7 +93,7 @@ const CodeEditor = (props) => {
   // console.log('CodeEditor', props)
 
   const allPrefs = JSON.parse(localStorage.getItem('defaultUserPrefs'))
-  const user = localStorage.getItem('CognitoIdentityServiceProvider.43e59kat93rjn7fsptfkilhnpq.LastAuthUser')
+  const user = localStorage.getItem('CognitoIdentityServiceProvider.ie27rnhg1utbq5i368586jcf7.LastAuthUser')
   const userPrefs = allPrefs[user]
 
   console.log(userPrefs)
@@ -119,6 +119,7 @@ const CodeEditor = (props) => {
             onChange={props.onCodeChange}
             defaultValue={props.code}
             value={props.code}
+            height={525}
             name="editor-block"
             editorProps={{ $blockScrolling: true }}
             width={''}

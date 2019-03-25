@@ -162,7 +162,7 @@ class MyPreferences extends Component {
 
     const allPreferences = JSON.parse(localStorage.getItem('defaultUserPrefs'))
 
-    newState.username = localStorage.getItem('CognitoIdentityServiceProvider.43e59kat93rjn7fsptfkilhnpq.LastAuthUser')
+    newState.username = localStorage.getItem('CognitoIdentityServiceProvider.ie27rnhg1utbq5i368586jcf7.LastAuthUser')
     newState.defaultPrefs = allPreferences[newState.username]
     newState.previewTheme = newState.defaultPrefs.theme
     newState.previewLang = newState.defaultPrefs.language
