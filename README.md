@@ -1,3 +1,5 @@
+This project is a clone - [full project commit history here](https://github.com/sethmichaelbrown/nb-client-3)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
